@@ -7,9 +7,9 @@ import { Provider } from "react-redux";
 import store from "./redux/store/store";
 import axios from "axios";
 
-//axios.defaults.baseURL = "http://localhost:3000/rickandmorty";
-axios.defaults.baseURL =
-  "https://back-rick-morty-production.up.railway.app/rickandmorty";
+axios.defaults.baseURL = "http://localhost:3000/rickandmorty";
+/* axios.defaults.baseURL =
+  "https://back-rick-morty-production.up.railway.app/rickandmorty"; */
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <Provider store={store}>
